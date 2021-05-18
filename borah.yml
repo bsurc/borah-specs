@@ -70,6 +70,20 @@ nodes:
   count: 1
   owner: GUTT Project
   added: 2020-10-01
+# Tim Andersen/Will Hughes
+- type: GPU
+  make: Dell
+  model: DSS 8440
+  gpu: RTX8000
+  gpus: 8
+  gpucores: 4608 # CUDA
+  cpu: Intel Xeon Gold 6248R
+  cpus: 2
+  cpucores: 24
+  ram: 384
+  count: 1
+  owner: NAM Project
+  added: 2021-01-25
 # Idaho Power
 - type: Login
   make: Dell
